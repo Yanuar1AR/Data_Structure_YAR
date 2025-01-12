@@ -144,9 +144,6 @@ if __name__ == "__main__":
                     break
             print("=" * 70)
 
-        def tambah_stack(data):
-            stack_favorit.append(data)
-
         def tambah_queue(data):
             queue_heraltis.append(data)
 
