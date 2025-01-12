@@ -103,8 +103,7 @@ if __name__ == "__main__":
 
         head = None
         tail = None
-
-        stack_favorit = []
+        
         queue_heraltis = []
 
         def tambah_data(kategori, sub_kategori, favorit):
