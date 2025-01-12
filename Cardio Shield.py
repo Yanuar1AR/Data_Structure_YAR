@@ -103,7 +103,8 @@ if __name__ == "__main__":
 
         head = None
         tail = None
-        
+
+        stack_favorit = []
         queue_heraltis = []
 
         def tambah_data(kategori, sub_kategori, favorit):
@@ -144,6 +145,9 @@ if __name__ == "__main__":
                     break
             print("=" * 70)
 
+        def tambah_stack(data):
+            stack_favorit.append(data)
+            
         def tambah_queue(data):
             queue_heraltis.append(data)
 
@@ -387,4 +391,4 @@ if __name__ == "__main__":
             menu_stress_management()
 
         if __name__ == "__main__":
-            menu0()                       
+            menu0()                                           
